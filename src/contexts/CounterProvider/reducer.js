@@ -5,7 +5,6 @@ export const reducer = (state, action) => {
     case types.INCREMENT_COUNTER: {
       return { ...state, counter: state.counter + 1 };
     }
-
     case types.DECREMENT_COUNTER: {
       return { ...state, counter: state.counter - 1 };
     }
